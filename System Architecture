@@ -1,0 +1,41 @@
+            Network Traffic
+                 │
+                 ▼
+        ┌─────────────────┐
+        │  Network Interface │
+        │  (Laptop NIC)      │
+        └─────────────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │   Scapy Sniffer  │
+        │ sniff() function │
+        └─────────────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Packet Analyzer │
+        │ analyze_packet()│
+        └─────────────────┘
+                 │
+                 ▼
+        ┌────────────────────────┐
+        │ Extract Packet Details │
+        │ • Source IP            │
+        │ • Destination IP       │
+        │ • Protocol (TCP/UDP)   │
+        │ • Port Numbers         │
+        └────────────────────────┘
+                 │
+                 ▼
+        ┌────────────────────────┐
+        │ Service Identification │
+        │ • HTTP (Port 80)      │
+        │ • HTTPS (Port 443)    │
+        └────────────────────────┘
+                 │
+                 ▼
+        ┌─────────────────┐
+        │ Terminal Output │
+        │ Packet Details  │
+        └─────────────────┘
