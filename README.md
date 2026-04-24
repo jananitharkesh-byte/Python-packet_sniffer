@@ -1,4 +1,4 @@
-Python Network Packet Sniffer
+#Python Network Packet Sniffer
 Overview
 
 This project is a simple network packet sniffer built with Python and Scapy. The tool captures live network packets from the local machine and extracts key information such as source and destination IP addresses, protocol types, and port numbers.
